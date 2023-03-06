@@ -1,0 +1,10 @@
+matplotlib==3.3.3
+numpy==1.24.2
+openpyxl==3.0.10
+pandas==1.5.3
+pymongo==4.3.3
+scikit-learn==0.24.0
+scipy==1.7.1
+streamlit==1.16.0
+datetime
+configparser
