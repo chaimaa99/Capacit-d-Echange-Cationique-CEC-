@@ -123,6 +123,7 @@ def main():
         def recap_46B_MDB():
             # CEC = Extract_46B()
             ca = certifi.where()
+            connect_timeout_ms = 10000
             client = MongoClient(
                 "mongodb+srv://team_lotfi:teamLotfi@cluster0.zdz0hto.mongodb.net/?retryWrites=true&w=majority",
                 tlsCAFile=ca)
